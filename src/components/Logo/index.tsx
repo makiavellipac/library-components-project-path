@@ -11,7 +11,13 @@ export const Logo = styled.h1<props>`
   font-weight: 700;
   font-style: normal;
   font-size: ${({ size }) =>
-    size === 'full' ? '1.4rem' : size === 'medium' ? '1rem' : size === 'short' ? '0.8rem' : '1.4rem'};
+    size === 'full'
+      ? '1.4rem'
+      : size === 'medium'
+        ? '1rem'
+        : size === 'short'
+          ? '0.8rem'
+          : '1.4rem'};
   -webkit-text-stroke: 1px ${({ color }) => (color ? color : '#000')};
   text-shadow: 0px 2px 5px ${({ color }) => (color ? color : '#000')};
   border: 0;
