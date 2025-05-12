@@ -8,7 +8,7 @@ type props = {
 
 export const Logo = styled.h1<props>`
   font-family: 'Bad Script', cursive;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
   font-size: ${({ size }) =>
     size === 'full'
